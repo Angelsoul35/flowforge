@@ -8,9 +8,11 @@ does, in a few hundred readable lines.
 
 ## What it does
 
-```
- steps + deps ─▶ validate (missing deps? cycle?) ─▶ layers ─▶ execute
-                 Kahn's algorithm                   (parallel)  retries + skips
+```mermaid
+flowchart LR
+    A[Steps + deps] --> B["Validate — Kahn's algorithm<br/>missing deps? cycle?"]
+    B --> C[Layers<br/>parallelisable groups]
+    C --> D[Execute<br/>parallel, retries + skips]
 ```
 
 1. **Validate (`dag.py`).** Every dependency must name a real step, no step may
