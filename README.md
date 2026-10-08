@@ -117,4 +117,4 @@ parallel execution, no-op steps), the HTTP API (validate, cycle rejection, run,
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+[MIT](LICENSE) © Angelo David Padilla Romero
