@@ -6,6 +6,12 @@ that can run in parallel, and executes them with per-step retries and
 failure-driven skip semantics — the core of what a CI pipeline or a task runner
 does, in a few hundred readable lines.
 
+[![CI](https://img.shields.io/badge/CI-GitHub%20Actions-blue)](.github/workflows/ci.yml)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue)](pyproject.toml)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
+---
+
 ## What it does
 
 ```mermaid
