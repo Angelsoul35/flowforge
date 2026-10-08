@@ -69,7 +69,7 @@ from flowforge.models import Step
 steps = [
     Step("build"),
     Step("test", action=run_tests, depends_on=("build",), max_retries=2),
-    Step("lint", depends_on=("build",)),                 # runs in parallel with test
+    Step("lint", depends_on=("build",)),  # runs in parallel with test
     Step("deploy", action=deploy, depends_on=("test", "lint")),
 ]
 report = Engine(max_parallel=4).run(steps)
