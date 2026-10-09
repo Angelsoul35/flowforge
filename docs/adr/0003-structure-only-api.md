@@ -33,5 +33,5 @@ Executable step bodies are never accepted from a request.
   name.
 - **Trade-off.** A general "run any workflow" API would need a sandbox, an allow
   list, or a non-code workflow definition language — a substantial, security-
-  critical subsystem. Deferring it and shipping the safe subset is the honest
+  critical subsystem. Deferring it and shipping the safe subset is the disciplined
   default; the DSL/sandbox is a deliberate future project, not an accident.

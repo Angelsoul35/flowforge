@@ -1,0 +1,1701 @@
+{
+ "dataset": "vitaliy-sharandin/energy-consumption-hourly-spain",
+ "config": "default",
+ "split": "train",
+ "columns": [
+  "time",
+  "total load actual",
+  "generation solar",
+  "generation wind onshore",
+  "price actual"
+ ],
+ "num_rows_total": 35064,
+ "slice": {
+  "offset": 0,
+  "length": 168,
+  "first_time": "2015-01-01 00:00:00+01:00",
+  "last_time": "2015-01-07 23:00:00+01:00"
+ },
+ "rows": [
+  {
+   "row_idx": 0,
+   "row": {
+    "time": "2015-01-01 00:00:00+01:00",
+    "total load actual": 25385.0,
+    "generation solar": 49.0,
+    "generation wind onshore": 6378.0,
+    "price actual": 65.41
+   }
+  },
+  {
+   "row_idx": 1,
+   "row": {
+    "time": "2015-01-01 01:00:00+01:00",
+    "total load actual": 24382.0,
+    "generation solar": 50.0,
+    "generation wind onshore": 5890.0,
+    "price actual": 64.92
+   }
+  },
+  {
+   "row_idx": 2,
+   "row": {
+    "time": "2015-01-01 02:00:00+01:00",
+    "total load actual": 22734.0,
+    "generation solar": 50.0,
+    "generation wind onshore": 5461.0,
+    "price actual": 64.48
+   }
+  },
+  {
+   "row_idx": 3,
+   "row": {
+    "time": "2015-01-01 03:00:00+01:00",
+    "total load actual": 21286.0,
+    "generation solar": 50.0,
+    "generation wind onshore": 5238.0,
+    "price actual": 59.32
+   }
+  },
+  {
+   "row_idx": 4,
+   "row": {
+    "time": "2015-01-01 04:00:00+01:00",
+    "total load actual": 20264.0,
+    "generation solar": 42.0,
+    "generation wind onshore": 4935.0,
+    "price actual": 56.04
+   }
+  },
+  {
+   "row_idx": 5,
+   "row": {
+    "time": "2015-01-01 05:00:00+01:00",
+    "total load actual": 19905.0,
+    "generation solar": 34.0,
+    "generation wind onshore": 4618.0,
+    "price actual": 53.63
+   }
+  },
+  {
+   "row_idx": 6,
+   "row": {
+    "time": "2015-01-01 06:00:00+01:00",
+    "total load actual": 20010.0,
+    "generation solar": 34.0,
+    "generation wind onshore": 4397.0,
+    "price actual": 51.73
+   }
+  },
+  {
+   "row_idx": 7,
+   "row": {
+    "time": "2015-01-01 07:00:00+01:00",
+    "total load actual": 20377.0,
+    "generation solar": 35.0,
+    "generation wind onshore": 3992.0,
+    "price actual": 51.43
+   }
+  },
+  {
+   "row_idx": 8,
+   "row": {
+    "time": "2015-01-01 08:00:00+01:00",
+    "total load actual": 20094.0,
+    "generation solar": 54.0,
+    "generation wind onshore": 3629.0,
+    "price actual": 48.98
+   }
+  },
+  {
+   "row_idx": 9,
+   "row": {
+    "time": "2015-01-01 09:00:00+01:00",
+    "total load actual": 20637.0,
+    "generation solar": 743.0,
+    "generation wind onshore": 3073.0,
+    "price actual": 54.2
+   }
+  },
+  {
+   "row_idx": 10,
+   "row": {
+    "time": "2015-01-01 10:00:00+01:00",
+    "total load actual": 22250.0,
+    "generation solar": 2019.0,
+    "generation wind onshore": 2683.0,
+    "price actual": 58.94
+   }
+  },
+  {
+   "row_idx": 11,
+   "row": {
+    "time": "2015-01-01 11:00:00+01:00",
+    "total load actual": 23547.0,
+    "generation solar": 3197.0,
+    "generation wind onshore": 2771.0,
+    "price actual": 59.86
+   }
+  },
+  {
+   "row_idx": 12,
+   "row": {
+    "time": "2015-01-01 12:00:00+01:00",
+    "total load actual": 24133.0,
+    "generation solar": 3885.0,
+    "generation wind onshore": 2906.0,
+    "price actual": 60.12
+   }
+  },
+  {
+   "row_idx": 13,
+   "row": {
+    "time": "2015-01-01 13:00:00+01:00",
+    "total load actual": 24713.0,
+    "generation solar": 4007.0,
+    "generation wind onshore": 2923.0,
+    "price actual": 62.05
+   }
+  },
+  {
+   "row_idx": 14,
+   "row": {
+    "time": "2015-01-01 14:00:00+01:00",
+    "total load actual": 24672.0,
+    "generation solar": 3973.0,
+    "generation wind onshore": 2945.0,
+    "price actual": 62.06
+   }
+  },
+  {
+   "row_idx": 15,
+   "row": {
+    "time": "2015-01-01 15:00:00+01:00",
+    "total load actual": 23528.0,
+    "generation solar": 3818.0,
+    "generation wind onshore": 2709.0,
+    "price actual": 59.76
+   }
+  },
+  {
+   "row_idx": 16,
+   "row": {
+    "time": "2015-01-01 16:00:00+01:00",
+    "total load actual": 23118.0,
+    "generation solar": 3088.0,
+    "generation wind onshore": 2552.0,
+    "price actual": 61.18
+   }
+  },
+  {
+   "row_idx": 17,
+   "row": {
+    "time": "2015-01-01 17:00:00+01:00",
+    "total load actual": 23606.0,
+    "generation solar": 1467.0,
+    "generation wind onshore": 2699.0,
+    "price actual": 64.74
+   }
+  },
+  {
+   "row_idx": 18,
+   "row": {
+    "time": "2015-01-01 18:00:00+01:00",
+    "total load actual": 26447.0,
+    "generation solar": 404.0,
+    "generation wind onshore": 2764.0,
+    "price actual": 74.26
+   }
+  },
+  {
+   "row_idx": 19,
+   "row": {
+    "time": "2015-01-01 19:00:00+01:00",
+    "total load actual": 28020.0,
+    "generation solar": 139.0,
+    "generation wind onshore": 2913.0,
+    "price actual": 74.24
+   }
+  },
+  {
+   "row_idx": 20,
+   "row": {
+    "time": "2015-01-01 20:00:00+01:00",
+    "total load actual": 29014.0,
+    "generation solar": 100.0,
+    "generation wind onshore": 3118.0,
+    "price actual": 75.64
+   }
+  },
+  {
+   "row_idx": 21,
+   "row": {
+    "time": "2015-01-01 21:00:00+01:00",
+    "total load actual": 29571.0,
+    "generation solar": 75.0,
+    "generation wind onshore": 3373.0,
+    "price actual": 73.92
+   }
+  },
+  {
+   "row_idx": 22,
+   "row": {
+    "time": "2015-01-01 22:00:00+01:00",
+    "total load actual": 29031.0,
+    "generation solar": 74.0,
+    "generation wind onshore": 3508.0,
+    "price actual": 70.53
+   }
+  },
+  {
+   "row_idx": 23,
+   "row": {
+    "time": "2015-01-01 23:00:00+01:00",
+    "total load actual": 26798.0,
+    "generation solar": 56.0,
+    "generation wind onshore": 3527.0,
+    "price actual": 64.13
+   }
+  },
+  {
+   "row_idx": 24,
+   "row": {
+    "time": "2015-01-02 00:00:00+01:00",
+    "total load actual": 27070.0,
+    "generation solar": 54.0,
+    "generation wind onshore": 13232.0,
+    "price actual": 64.02
+   }
+  },
+  {
+   "row_idx": 25,
+   "row": {
+    "time": "2015-01-02 01:00:00+01:00",
+    "total load actual": 24935.0,
+    "generation solar": 54.0,
+    "generation wind onshore": 12760.0,
+    "price actual": 58.46
+   }
+  },
+  {
+   "row_idx": 26,
+   "row": {
+    "time": "2015-01-02 02:00:00+01:00",
+    "total load actual": 23214.0,
+    "generation solar": 54.0,
+    "generation wind onshore": 12174.0,
+    "price actual": 54.7
+   }
+  },
+  {
+   "row_idx": 27,
+   "row": {
+    "time": "2015-01-02 03:00:00+01:00",
+    "total load actual": 22540.0,
+    "generation solar": 53.0,
+    "generation wind onshore": 11358.0,
+    "price actual": 54.91
+   }
+  },
+  {
+   "row_idx": 28,
+   "row": {
+    "time": "2015-01-02 04:00:00+01:00",
+    "total load actual": 22096.0,
+    "generation solar": 53.0,
+    "generation wind onshore": 11199.0,
+    "price actual": 53.07
+   }
+  },
+  {
+   "row_idx": 29,
+   "row": {
+    "time": "2015-01-02 05:00:00+01:00",
+    "total load actual": 22066.0,
+    "generation solar": 63.0,
+    "generation wind onshore": 11152.0,
+    "price actual": 54.23
+   }
+  },
+  {
+   "row_idx": 30,
+   "row": {
+    "time": "2015-01-02 06:00:00+01:00",
+    "total load actual": 22275.0,
+    "generation solar": 55.0,
+    "generation wind onshore": 11169.0,
+    "price actual": 58.22
+   }
+  },
+  {
+   "row_idx": 31,
+   "row": {
+    "time": "2015-01-02 07:00:00+01:00",
+    "total load actual": 23025.0,
+    "generation solar": 54.0,
+    "generation wind onshore": 11205.0,
+    "price actual": 67.55
+   }
+  },
+  {
+   "row_idx": 32,
+   "row": {
+    "time": "2015-01-02 08:00:00+01:00",
+    "total load actual": 23699.0,
+    "generation solar": 116.0,
+    "generation wind onshore": 10920.0,
+    "price actual": 70.33
+   }
+  },
+  {
+   "row_idx": 33,
+   "row": {
+    "time": "2015-01-02 09:00:00+01:00",
+    "total load actual": 25834.0,
+    "generation solar": 1039.0,
+    "generation wind onshore": 10491.0,
+    "price actual": 71.26
+   }
+  },
+  {
+   "row_idx": 34,
+   "row": {
+    "time": "2015-01-02 10:00:00+01:00",
+    "total load actual": 27927.0,
+    "generation solar": 2373.0,
+    "generation wind onshore": 10156.0,
+    "price actual": 75.86
+   }
+  },
+  {
+   "row_idx": 35,
+   "row": {
+    "time": "2015-01-02 11:00:00+01:00",
+    "total load actual": 29072.0,
+    "generation solar": 3699.0,
+    "generation wind onshore": 10421.0,
+    "price actual": 73.65
+   }
+  },
+  {
+   "row_idx": 36,
+   "row": {
+    "time": "2015-01-02 12:00:00+01:00",
+    "total load actual": 29071.0,
+    "generation solar": 4154.0,
+    "generation wind onshore": 11230.0,
+    "price actual": 74.19
+   }
+  },
+  {
+   "row_idx": 37,
+   "row": {
+    "time": "2015-01-02 13:00:00+01:00",
+    "total load actual": 29439.0,
+    "generation solar": 4074.0,
+    "generation wind onshore": 11920.0,
+    "price actual": 71.51
+   }
+  },
+  {
+   "row_idx": 38,
+   "row": {
+    "time": "2015-01-02 14:00:00+01:00",
+    "total load actual": 29241.0,
+    "generation solar": 3851.0,
+    "generation wind onshore": 11819.0,
+    "price actual": 71.04
+   }
+  },
+  {
+   "row_idx": 39,
+   "row": {
+    "time": "2015-01-02 15:00:00+01:00",
+    "total load actual": 27973.0,
+    "generation solar": 3619.0,
+    "generation wind onshore": 11961.0,
+    "price actual": 71.24
+   }
+  },
+  {
+   "row_idx": 40,
+   "row": {
+    "time": "2015-01-02 16:00:00+01:00",
+    "total load actual": 27320.0,
+    "generation solar": 3024.0,
+    "generation wind onshore": 12025.0,
+    "price actual": 70.64
+   }
+  },
+  {
+   "row_idx": 41,
+   "row": {
+    "time": "2015-01-02 17:00:00+01:00",
+    "total load actual": 27157.0,
+    "generation solar": 2053.0,
+    "generation wind onshore": 12077.0,
+    "price actual": 72.85
+   }
+  },
+  {
+   "row_idx": 42,
+   "row": {
+    "time": "2015-01-02 18:00:00+01:00",
+    "total load actual": 29045.0,
+    "generation solar": 769.0,
+    "generation wind onshore": 11276.0,
+    "price actual": 82.55
+   }
+  },
+  {
+   "row_idx": 43,
+   "row": {
+    "time": "2015-01-02 19:00:00+01:00",
+    "total load actual": 31967.0,
+    "generation solar": 266.0,
+    "generation wind onshore": 10510.0,
+    "price actual": 83.33
+   }
+  },
+  {
+   "row_idx": 44,
+   "row": {
+    "time": "2015-01-02 20:00:00+01:00",
+    "total load actual": 33266.0,
+    "generation solar": 165.0,
+    "generation wind onshore": 10406.0,
+    "price actual": 83.23
+   }
+  },
+  {
+   "row_idx": 45,
+   "row": {
+    "time": "2015-01-02 21:00:00+01:00",
+    "total load actual": 33668.0,
+    "generation solar": 137.0,
+    "generation wind onshore": 10445.0,
+    "price actual": 79.06
+   }
+  },
+  {
+   "row_idx": 46,
+   "row": {
+    "time": "2015-01-02 22:00:00+01:00",
+    "total load actual": 32426.0,
+    "generation solar": 137.0,
+    "generation wind onshore": 9976.0,
+    "price actual": 76.2
+   }
+  },
+  {
+   "row_idx": 47,
+   "row": {
+    "time": "2015-01-02 23:00:00+01:00",
+    "total load actual": 29705.0,
+    "generation solar": 137.0,
+    "generation wind onshore": 9527.0,
+    "price actual": 71.75
+   }
+  },
+  {
+   "row_idx": 48,
+   "row": {
+    "time": "2015-01-03 00:00:00+01:00",
+    "total load actual": 25564.0,
+    "generation solar": 62.0,
+    "generation wind onshore": 9264.0,
+    "price actual": 66.82
+   }
+  },
+  {
+   "row_idx": 49,
+   "row": {
+    "time": "2015-01-03 01:00:00+01:00",
+    "total load actual": 23584.0,
+    "generation solar": 62.0,
+    "generation wind onshore": 9135.0,
+    "price actual": 63.35
+   }
+  },
+  {
+   "row_idx": 50,
+   "row": {
+    "time": "2015-01-03 02:00:00+01:00",
+    "total load actual": 22194.0,
+    "generation solar": 61.0,
+    "generation wind onshore": 9362.0,
+    "price actual": 58.79
+   }
+  },
+  {
+   "row_idx": 51,
+   "row": {
+    "time": "2015-01-03 03:00:00+01:00",
+    "total load actual": 21296.0,
+    "generation solar": 61.0,
+    "generation wind onshore": 9628.0,
+    "price actual": 57.44
+   }
+  },
+  {
+   "row_idx": 52,
+   "row": {
+    "time": "2015-01-03 04:00:00+01:00",
+    "total load actual": 21145.0,
+    "generation solar": 61.0,
+    "generation wind onshore": 9607.0,
+    "price actual": 55.29
+   }
+  },
+  {
+   "row_idx": 53,
+   "row": {
+    "time": "2015-01-03 05:00:00+01:00",
+    "total load actual": 21316.0,
+    "generation solar": 61.0,
+    "generation wind onshore": 9666.0,
+    "price actual": 56.22
+   }
+  },
+  {
+   "row_idx": 54,
+   "row": {
+    "time": "2015-01-03 06:00:00+01:00",
+    "total load actual": 21674.0,
+    "generation solar": 61.0,
+    "generation wind onshore": 9743.0,
+    "price actual": 58.13
+   }
+  },
+  {
+   "row_idx": 55,
+   "row": {
+    "time": "2015-01-03 07:00:00+01:00",
+    "total load actual": 22127.0,
+    "generation solar": 63.0,
+    "generation wind onshore": 9401.0,
+    "price actual": 62.06
+   }
+  },
+  {
+   "row_idx": 56,
+   "row": {
+    "time": "2015-01-03 08:00:00+01:00",
+    "total load actual": 22756.0,
+    "generation solar": 233.0,
+    "generation wind onshore": 8363.0,
+    "price actual": 67.36
+   }
+  },
+  {
+   "row_idx": 57,
+   "row": {
+    "time": "2015-01-03 09:00:00+01:00",
+    "total load actual": 24654.0,
+    "generation solar": 820.0,
+    "generation wind onshore": 7924.0,
+    "price actual": 69.21
+   }
+  },
+  {
+   "row_idx": 58,
+   "row": {
+    "time": "2015-01-03 10:00:00+01:00",
+    "total load actual": 26454.0,
+    "generation solar": 1665.0,
+    "generation wind onshore": 7592.0,
+    "price actual": 70.35
+   }
+  },
+  {
+   "row_idx": 59,
+   "row": {
+    "time": "2015-01-03 11:00:00+01:00",
+    "total load actual": 26959.0,
+    "generation solar": 2488.0,
+    "generation wind onshore": 7874.0,
+    "price actual": 68.77
+   }
+  },
+  {
+   "row_idx": 60,
+   "row": {
+    "time": "2015-01-03 12:00:00+01:00",
+    "total load actual": 26716.0,
+    "generation solar": 3218.0,
+    "generation wind onshore": 8192.0,
+    "price actual": 68.82
+   }
+  },
+  {
+   "row_idx": 61,
+   "row": {
+    "time": "2015-01-03 13:00:00+01:00",
+    "total load actual": 26802.0,
+    "generation solar": 3695.0,
+    "generation wind onshore": 8718.0,
+    "price actual": 68.23
+   }
+  },
+  {
+   "row_idx": 62,
+   "row": {
+    "time": "2015-01-03 14:00:00+01:00",
+    "total load actual": 26416.0,
+    "generation solar": 3780.0,
+    "generation wind onshore": 9152.0,
+    "price actual": 67.97
+   }
+  },
+  {
+   "row_idx": 63,
+   "row": {
+    "time": "2015-01-03 15:00:00+01:00",
+    "total load actual": 25362.0,
+    "generation solar": 3370.0,
+    "generation wind onshore": 9382.0,
+    "price actual": 62.76
+   }
+  },
+  {
+   "row_idx": 64,
+   "row": {
+    "time": "2015-01-03 16:00:00+01:00",
+    "total load actual": 24770.0,
+    "generation solar": 2692.0,
+    "generation wind onshore": 9307.0,
+    "price actual": 62.03
+   }
+  },
+  {
+   "row_idx": 65,
+   "row": {
+    "time": "2015-01-03 17:00:00+01:00",
+    "total load actual": 24501.0,
+    "generation solar": 1931.0,
+    "generation wind onshore": 8892.0,
+    "price actual": 66.69
+   }
+  },
+  {
+   "row_idx": 66,
+   "row": {
+    "time": "2015-01-03 18:00:00+01:00",
+    "total load actual": 24992.0,
+    "generation solar": 1015.0,
+    "generation wind onshore": 8568.0,
+    "price actual": 71.5
+   }
+  },
+  {
+   "row_idx": 67,
+   "row": {
+    "time": "2015-01-03 19:00:00+01:00",
+    "total load actual": 27964.0,
+    "generation solar": 502.0,
+    "generation wind onshore": 9005.0,
+    "price actual": 72.14
+   }
+  },
+  {
+   "row_idx": 68,
+   "row": {
+    "time": "2015-01-03 20:00:00+01:00",
+    "total load actual": 29694.0,
+    "generation solar": 355.0,
+    "generation wind onshore": 9672.0,
+    "price actual": 72.45
+   }
+  },
+  {
+   "row_idx": 69,
+   "row": {
+    "time": "2015-01-03 21:00:00+01:00",
+    "total load actual": 29874.0,
+    "generation solar": 291.0,
+    "generation wind onshore": 10081.0,
+    "price actual": 72.86
+   }
+  },
+  {
+   "row_idx": 70,
+   "row": {
+    "time": "2015-01-03 22:00:00+01:00",
+    "total load actual": 28979.0,
+    "generation solar": 207.0,
+    "generation wind onshore": 10537.0,
+    "price actual": 70.1
+   }
+  },
+  {
+   "row_idx": 71,
+   "row": {
+    "time": "2015-01-03 23:00:00+01:00",
+    "total load actual": 26863.0,
+    "generation solar": 117.0,
+    "generation wind onshore": 10953.0,
+    "price actual": 67.62
+   }
+  },
+  {
+   "row_idx": 72,
+   "row": {
+    "time": "2015-01-04 00:00:00+01:00",
+    "total load actual": 25254.0,
+    "generation solar": 692.0,
+    "generation wind onshore": 8540.0,
+    "price actual": 55.22
+   }
+  },
+  {
+   "row_idx": 73,
+   "row": {
+    "time": "2015-01-04 01:00:00+01:00",
+    "total load actual": 23620.0,
+    "generation solar": 684.0,
+    "generation wind onshore": 8080.0,
+    "price actual": 50.54
+   }
+  },
+  {
+   "row_idx": 74,
+   "row": {
+    "time": "2015-01-04 02:00:00+01:00",
+    "total load actual": 22606.0,
+    "generation solar": 648.0,
+    "generation wind onshore": 7773.0,
+    "price actual": 48.68
+   }
+  },
+  {
+   "row_idx": 75,
+   "row": {
+    "time": "2015-01-04 03:00:00+01:00",
+    "total load actual": 22191.0,
+    "generation solar": 640.0,
+    "generation wind onshore": 7601.0,
+    "price actual": 48.02
+   }
+  },
+  {
+   "row_idx": 76,
+   "row": {
+    "time": "2015-01-04 04:00:00+01:00",
+    "total load actual": 21929.0,
+    "generation solar": 563.0,
+    "generation wind onshore": 7584.0,
+    "price actual": 47.06
+   }
+  },
+  {
+   "row_idx": 77,
+   "row": {
+    "time": "2015-01-04 05:00:00+01:00",
+    "total load actual": 22195.0,
+    "generation solar": 372.0,
+    "generation wind onshore": 7812.0,
+    "price actual": 46.79
+   }
+  },
+  {
+   "row_idx": 78,
+   "row": {
+    "time": "2015-01-04 06:00:00+01:00",
+    "total load actual": 24035.0,
+    "generation solar": 179.0,
+    "generation wind onshore": 7950.0,
+    "price actual": 47.63
+   }
+  },
+  {
+   "row_idx": 79,
+   "row": {
+    "time": "2015-01-04 07:00:00+01:00",
+    "total load actual": 26807.0,
+    "generation solar": 129.0,
+    "generation wind onshore": 8228.0,
+    "price actual": 47.44
+   }
+  },
+  {
+   "row_idx": 80,
+   "row": {
+    "time": "2015-01-04 08:00:00+01:00",
+    "total load actual": 28316.0,
+    "generation solar": 357.0,
+    "generation wind onshore": 8341.0,
+    "price actual": 50.84
+   }
+  },
+  {
+   "row_idx": 81,
+   "row": {
+    "time": "2015-01-04 09:00:00+01:00",
+    "total load actual": 29871.0,
+    "generation solar": 1634.0,
+    "generation wind onshore": 8569.0,
+    "price actual": 54.84
+   }
+  },
+  {
+   "row_idx": 82,
+   "row": {
+    "time": "2015-01-04 10:00:00+01:00",
+    "total load actual": 30585.0,
+    "generation solar": 3830.0,
+    "generation wind onshore": 8433.0,
+    "price actual": 59.95
+   }
+  },
+  {
+   "row_idx": 83,
+   "row": {
+    "time": "2015-01-04 11:00:00+01:00",
+    "total load actual": 30772.0,
+    "generation solar": 4937.0,
+    "generation wind onshore": 8001.0,
+    "price actual": 59.35
+   }
+  },
+  {
+   "row_idx": 84,
+   "row": {
+    "time": "2015-01-04 12:00:00+01:00",
+    "total load actual": 30685.0,
+    "generation solar": 5302.0,
+    "generation wind onshore": 7520.0,
+    "price actual": 57.03
+   }
+  },
+  {
+   "row_idx": 85,
+   "row": {
+    "time": "2015-01-04 13:00:00+01:00",
+    "total load actual": 30429.0,
+    "generation solar": 5590.0,
+    "generation wind onshore": 7274.0,
+    "price actual": 59.22
+   }
+  },
+  {
+   "row_idx": 86,
+   "row": {
+    "time": "2015-01-04 14:00:00+01:00",
+    "total load actual": 28741.0,
+    "generation solar": 5668.0,
+    "generation wind onshore": 6878.0,
+    "price actual": 58.56
+   }
+  },
+  {
+   "row_idx": 87,
+   "row": {
+    "time": "2015-01-04 15:00:00+01:00",
+    "total load actual": 28249.0,
+    "generation solar": 5593.0,
+    "generation wind onshore": 7517.0,
+    "price actual": 52.07
+   }
+  },
+  {
+   "row_idx": 88,
+   "row": {
+    "time": "2015-01-04 16:00:00+01:00",
+    "total load actual": 28105.0,
+    "generation solar": 5316.0,
+    "generation wind onshore": 7999.0,
+    "price actual": 52.15
+   }
+  },
+  {
+   "row_idx": 89,
+   "row": {
+    "time": "2015-01-04 17:00:00+01:00",
+    "total load actual": 27908.0,
+    "generation solar": 4907.0,
+    "generation wind onshore": 8181.0,
+    "price actual": 61.12
+   }
+  },
+  {
+   "row_idx": 90,
+   "row": {
+    "time": "2015-01-04 18:00:00+01:00",
+    "total load actual": 27577.0,
+    "generation solar": 4200.0,
+    "generation wind onshore": 8260.0,
+    "price actual": 71.98
+   }
+  },
+  {
+   "row_idx": 91,
+   "row": {
+    "time": "2015-01-04 19:00:00+01:00",
+    "total load actual": 27418.0,
+    "generation solar": 2911.0,
+    "generation wind onshore": 8156.0,
+    "price actual": 74.64
+   }
+  },
+  {
+   "row_idx": 92,
+   "row": {
+    "time": "2015-01-04 20:00:00+01:00",
+    "total load actual": 28604.0,
+    "generation solar": 1392.0,
+    "generation wind onshore": 8347.0,
+    "price actual": 75.38
+   }
+  },
+  {
+   "row_idx": 93,
+   "row": {
+    "time": "2015-01-04 21:00:00+01:00",
+    "total load actual": 30346.0,
+    "generation solar": 748.0,
+    "generation wind onshore": 8875.0,
+    "price actual": 76.49
+   }
+  },
+  {
+   "row_idx": 94,
+   "row": {
+    "time": "2015-01-04 22:00:00+01:00",
+    "total load actual": 28190.0,
+    "generation solar": 696.0,
+    "generation wind onshore": 8922.0,
+    "price actual": 73.83
+   }
+  },
+  {
+   "row_idx": 95,
+   "row": {
+    "time": "2015-01-04 23:00:00+01:00",
+    "total load actual": 26270.0,
+    "generation solar": 672.0,
+    "generation wind onshore": 8735.0,
+    "price actual": 69.51
+   }
+  },
+  {
+   "row_idx": 96,
+   "row": {
+    "time": "2015-01-05 00:00:00+01:00",
+    "total load actual": 25069.0,
+    "generation solar": 691.0,
+    "generation wind onshore": 7351.0,
+    "price actual": 70.77
+   }
+  },
+  {
+   "row_idx": 97,
+   "row": {
+    "time": "2015-01-05 01:00:00+01:00",
+    "total load actual": 23390.0,
+    "generation solar": 668.0,
+    "generation wind onshore": 7403.0,
+    "price actual": 64.89
+   }
+  },
+  {
+   "row_idx": 98,
+   "row": {
+    "time": "2015-01-05 02:00:00+01:00",
+    "total load actual": 21988.0,
+    "generation solar": 662.0,
+    "generation wind onshore": 7887.0,
+    "price actual": 60.91
+   }
+  },
+  {
+   "row_idx": 99,
+   "row": {
+    "time": "2015-01-05 03:00:00+01:00",
+    "total load actual": 21182.0,
+    "generation solar": null,
+    "generation wind onshore": null,
+    "price actual": 59.68
+   }
+  },
+  {
+   "row_idx": 100,
+   "row": {
+    "time": "2015-01-05 04:00:00+01:00",
+    "total load actual": 20778.0,
+    "generation solar": 570.0,
+    "generation wind onshore": 8348.0,
+    "price actual": 58.04
+   }
+  },
+  {
+   "row_idx": 101,
+   "row": {
+    "time": "2015-01-05 05:00:00+01:00",
+    "total load actual": 20309.0,
+    "generation solar": 428.0,
+    "generation wind onshore": 8526.0,
+    "price actual": 59.57
+   }
+  },
+  {
+   "row_idx": 102,
+   "row": {
+    "time": "2015-01-05 06:00:00+01:00",
+    "total load actual": 20252.0,
+    "generation solar": 243.0,
+    "generation wind onshore": 8518.0,
+    "price actual": 69.73
+   }
+  },
+  {
+   "row_idx": 103,
+   "row": {
+    "time": "2015-01-05 07:00:00+01:00",
+    "total load actual": 19964.0,
+    "generation solar": 155.0,
+    "generation wind onshore": 8263.0,
+    "price actual": 72.97
+   }
+  },
+  {
+   "row_idx": 104,
+   "row": {
+    "time": "2015-01-05 08:00:00+01:00",
+    "total load actual": 20796.0,
+    "generation solar": 500.0,
+    "generation wind onshore": 8326.0,
+    "price actual": 77.92
+   }
+  },
+  {
+   "row_idx": 105,
+   "row": {
+    "time": "2015-01-05 09:00:00+01:00",
+    "total load actual": 22478.0,
+    "generation solar": 1333.0,
+    "generation wind onshore": 8046.0,
+    "price actual": 79.59
+   }
+  },
+  {
+   "row_idx": 106,
+   "row": {
+    "time": "2015-01-05 10:00:00+01:00",
+    "total load actual": 23834.0,
+    "generation solar": 2482.0,
+    "generation wind onshore": 8439.0,
+    "price actual": 81.75
+   }
+  },
+  {
+   "row_idx": 107,
+   "row": {
+    "time": "2015-01-05 11:00:00+01:00",
+    "total load actual": 24429.0,
+    "generation solar": 3339.0,
+    "generation wind onshore": 9131.0,
+    "price actual": 80.82
+   }
+  },
+  {
+   "row_idx": 108,
+   "row": {
+    "time": "2015-01-05 12:00:00+01:00",
+    "total load actual": null,
+    "generation solar": null,
+    "generation wind onshore": null,
+    "price actual": 79.14
+   }
+  },
+  {
+   "row_idx": 109,
+   "row": {
+    "time": "2015-01-05 13:00:00+01:00",
+    "total load actual": null,
+    "generation solar": null,
+    "generation wind onshore": null,
+    "price actual": 73.95
+   }
+  },
+  {
+   "row_idx": 110,
+   "row": {
+    "time": "2015-01-05 14:00:00+01:00",
+    "total load actual": null,
+    "generation solar": null,
+    "generation wind onshore": null,
+    "price actual": 71.93
+   }
+  },
+  {
+   "row_idx": 111,
+   "row": {
+    "time": "2015-01-05 15:00:00+01:00",
+    "total load actual": null,
+    "generation solar": null,
+    "generation wind onshore": null,
+    "price actual": 71.5
+   }
+  },
+  {
+   "row_idx": 112,
+   "row": {
+    "time": "2015-01-05 16:00:00+01:00",
+    "total load actual": null,
+    "generation solar": null,
+    "generation wind onshore": null,
+    "price actual": 71.85
+   }
+  },
+  {
+   "row_idx": 113,
+   "row": {
+    "time": "2015-01-05 17:00:00+01:00",
+    "total load actual": null,
+    "generation solar": null,
+    "generation wind onshore": null,
+    "price actual": 80.53
+   }
+  },
+  {
+   "row_idx": 114,
+   "row": {
+    "time": "2015-01-05 18:00:00+01:00",
+    "total load actual": 21888.0,
+    "generation solar": 2944.0,
+    "generation wind onshore": 7431.0,
+    "price actual": 89.08
+   }
+  },
+  {
+   "row_idx": 115,
+   "row": {
+    "time": "2015-01-05 19:00:00+01:00",
+    "total load actual": 22048.0,
+    "generation solar": 1971.0,
+    "generation wind onshore": 6570.0,
+    "price actual": 90.97
+   }
+  },
+  {
+   "row_idx": 116,
+   "row": {
+    "time": "2015-01-05 20:00:00+01:00",
+    "total load actual": 22858.0,
+    "generation solar": 958.0,
+    "generation wind onshore": 5549.0,
+    "price actual": 88.51
+   }
+  },
+  {
+   "row_idx": 117,
+   "row": {
+    "time": "2015-01-05 21:00:00+01:00",
+    "total load actual": 25604.0,
+    "generation solar": 605.0,
+    "generation wind onshore": 4979.0,
+    "price actual": 82.85
+   }
+  },
+  {
+   "row_idx": 118,
+   "row": {
+    "time": "2015-01-05 22:00:00+01:00",
+    "total load actual": 25381.0,
+    "generation solar": 518.0,
+    "generation wind onshore": 4822.0,
+    "price actual": 80.52
+   }
+  },
+  {
+   "row_idx": 119,
+   "row": {
+    "time": "2015-01-05 23:00:00+01:00",
+    "total load actual": 23822.0,
+    "generation solar": 394.0,
+    "generation wind onshore": 4982.0,
+    "price actual": 72.18
+   }
+  },
+  {
+   "row_idx": 120,
+   "row": {
+    "time": "2015-01-06 00:00:00+01:00",
+    "total load actual": 23711.0,
+    "generation solar": 626.0,
+    "generation wind onshore": 4052.0,
+    "price actual": 71.48
+   }
+  },
+  {
+   "row_idx": 121,
+   "row": {
+    "time": "2015-01-06 01:00:00+01:00",
+    "total load actual": 22354.0,
+    "generation solar": 624.0,
+    "generation wind onshore": 3832.0,
+    "price actual": 64.76
+   }
+  },
+  {
+   "row_idx": 122,
+   "row": {
+    "time": "2015-01-06 02:00:00+01:00",
+    "total load actual": 21546.0,
+    "generation solar": 616.0,
+    "generation wind onshore": 3398.0,
+    "price actual": 60.22
+   }
+  },
+  {
+   "row_idx": 123,
+   "row": {
+    "time": "2015-01-06 03:00:00+01:00",
+    "total load actual": 21171.0,
+    "generation solar": 582.0,
+    "generation wind onshore": 3003.0,
+    "price actual": 57.14
+   }
+  },
+  {
+   "row_idx": 124,
+   "row": {
+    "time": "2015-01-06 04:00:00+01:00",
+    "total load actual": 21042.0,
+    "generation solar": 576.0,
+    "generation wind onshore": 2569.0,
+    "price actual": 53.94
+   }
+  },
+  {
+   "row_idx": 125,
+   "row": {
+    "time": "2015-01-06 05:00:00+01:00",
+    "total load actual": 21618.0,
+    "generation solar": 499.0,
+    "generation wind onshore": 2380.0,
+    "price actual": 53.43
+   }
+  },
+  {
+   "row_idx": 126,
+   "row": {
+    "time": "2015-01-06 06:00:00+01:00",
+    "total load actual": 23433.0,
+    "generation solar": 415.0,
+    "generation wind onshore": 2196.0,
+    "price actual": 56.68
+   }
+  },
+  {
+   "row_idx": 127,
+   "row": {
+    "time": "2015-01-06 07:00:00+01:00",
+    "total load actual": 25885.0,
+    "generation solar": 412.0,
+    "generation wind onshore": 1701.0,
+    "price actual": 63.49
+   }
+  },
+  {
+   "row_idx": 128,
+   "row": {
+    "time": "2015-01-06 08:00:00+01:00",
+    "total load actual": 28456.0,
+    "generation solar": 1168.0,
+    "generation wind onshore": 1102.0,
+    "price actual": 66.75
+   }
+  },
+  {
+   "row_idx": 129,
+   "row": {
+    "time": "2015-01-06 09:00:00+01:00",
+    "total load actual": 29708.0,
+    "generation solar": 3018.0,
+    "generation wind onshore": 682.0,
+    "price actual": 73.07
+   }
+  },
+  {
+   "row_idx": 130,
+   "row": {
+    "time": "2015-01-06 10:00:00+01:00",
+    "total load actual": 30887.0,
+    "generation solar": 4129.0,
+    "generation wind onshore": 470.0,
+    "price actual": 78.95
+   }
+  },
+  {
+   "row_idx": 131,
+   "row": {
+    "time": "2015-01-06 11:00:00+01:00",
+    "total load actual": 31409.0,
+    "generation solar": 4642.0,
+    "generation wind onshore": 472.0,
+    "price actual": 75.91
+   }
+  },
+  {
+   "row_idx": 132,
+   "row": {
+    "time": "2015-01-06 12:00:00+01:00",
+    "total load actual": 31947.0,
+    "generation solar": 4976.0,
+    "generation wind onshore": 683.0,
+    "price actual": 73.12
+   }
+  },
+  {
+   "row_idx": 133,
+   "row": {
+    "time": "2015-01-06 13:00:00+01:00",
+    "total load actual": 32078.0,
+    "generation solar": 5044.0,
+    "generation wind onshore": 1041.0,
+    "price actual": 68.02
+   }
+  },
+  {
+   "row_idx": 134,
+   "row": {
+    "time": "2015-01-06 14:00:00+01:00",
+    "total load actual": 31193.0,
+    "generation solar": 4887.0,
+    "generation wind onshore": 1652.0,
+    "price actual": 66.67
+   }
+  },
+  {
+   "row_idx": 135,
+   "row": {
+    "time": "2015-01-06 15:00:00+01:00",
+    "total load actual": 30542.0,
+    "generation solar": 4641.0,
+    "generation wind onshore": 2761.0,
+    "price actual": 65.08
+   }
+  },
+  {
+   "row_idx": 136,
+   "row": {
+    "time": "2015-01-06 16:00:00+01:00",
+    "total load actual": 30591.0,
+    "generation solar": 4279.0,
+    "generation wind onshore": 3277.0,
+    "price actual": 66.1
+   }
+  },
+  {
+   "row_idx": 137,
+   "row": {
+    "time": "2015-01-06 17:00:00+01:00",
+    "total load actual": 30799.0,
+    "generation solar": 3824.0,
+    "generation wind onshore": 3281.0,
+    "price actual": 72.0
+   }
+  },
+  {
+   "row_idx": 138,
+   "row": {
+    "time": "2015-01-06 18:00:00+01:00",
+    "total load actual": 30481.0,
+    "generation solar": 3132.0,
+    "generation wind onshore": 3781.0,
+    "price actual": 78.6
+   }
+  },
+  {
+   "row_idx": 139,
+   "row": {
+    "time": "2015-01-06 19:00:00+01:00",
+    "total load actual": 30147.0,
+    "generation solar": 2383.0,
+    "generation wind onshore": 3943.0,
+    "price actual": 81.18
+   }
+  },
+  {
+   "row_idx": 140,
+   "row": {
+    "time": "2015-01-06 20:00:00+01:00",
+    "total load actual": 30120.0,
+    "generation solar": 1586.0,
+    "generation wind onshore": 4028.0,
+    "price actual": 81.65
+   }
+  },
+  {
+   "row_idx": 141,
+   "row": {
+    "time": "2015-01-06 21:00:00+01:00",
+    "total load actual": 30747.0,
+    "generation solar": 891.0,
+    "generation wind onshore": 3661.0,
+    "price actual": 78.63
+   }
+  },
+  {
+   "row_idx": 142,
+   "row": {
+    "time": "2015-01-06 22:00:00+01:00",
+    "total load actual": 29978.0,
+    "generation solar": 696.0,
+    "generation wind onshore": 3485.0,
+    "price actual": 73.2
+   }
+  },
+  {
+   "row_idx": 143,
+   "row": {
+    "time": "2015-01-06 23:00:00+01:00",
+    "total load actual": 27421.0,
+    "generation solar": 669.0,
+    "generation wind onshore": 3276.0,
+    "price actual": 72.46
+   }
+  },
+  {
+   "row_idx": 144,
+   "row": {
+    "time": "2015-01-07 00:00:00+01:00",
+    "total load actual": 30518.0,
+    "generation solar": 1280.0,
+    "generation wind onshore": 6210.0,
+    "price actual": 67.24
+   }
+  },
+  {
+   "row_idx": 145,
+   "row": {
+    "time": "2015-01-07 01:00:00+01:00",
+    "total load actual": 28484.0,
+    "generation solar": 1253.0,
+    "generation wind onshore": 5993.0,
+    "price actual": 64.17
+   }
+  },
+  {
+   "row_idx": 146,
+   "row": {
+    "time": "2015-01-07 02:00:00+01:00",
+    "total load actual": 27026.0,
+    "generation solar": 1231.0,
+    "generation wind onshore": 5529.0,
+    "price actual": 62.12
+   }
+  },
+  {
+   "row_idx": 147,
+   "row": {
+    "time": "2015-01-07 03:00:00+01:00",
+    "total load actual": 26248.0,
+    "generation solar": 1223.0,
+    "generation wind onshore": 5127.0,
+    "price actual": 62.11
+   }
+  },
+  {
+   "row_idx": 148,
+   "row": {
+    "time": "2015-01-07 04:00:00+01:00",
+    "total load actual": 25838.0,
+    "generation solar": 1189.0,
+    "generation wind onshore": 4940.0,
+    "price actual": 60.05
+   }
+  },
+  {
+   "row_idx": 149,
+   "row": {
+    "time": "2015-01-07 05:00:00+01:00",
+    "total load actual": 26021.0,
+    "generation solar": 1142.0,
+    "generation wind onshore": 4735.0,
+    "price actual": 62.48
+   }
+  },
+  {
+   "row_idx": 150,
+   "row": {
+    "time": "2015-01-07 06:00:00+01:00",
+    "total load actual": 26992.0,
+    "generation solar": 1043.0,
+    "generation wind onshore": 4266.0,
+    "price actual": 70.01
+   }
+  },
+  {
+   "row_idx": 151,
+   "row": {
+    "time": "2015-01-07 07:00:00+01:00",
+    "total load actual": 28625.0,
+    "generation solar": 979.0,
+    "generation wind onshore": 3849.0,
+    "price actual": 75.2
+   }
+  },
+  {
+   "row_idx": 152,
+   "row": {
+    "time": "2015-01-07 08:00:00+01:00",
+    "total load actual": 31015.0,
+    "generation solar": 1336.0,
+    "generation wind onshore": 3369.0,
+    "price actual": 83.3
+   }
+  },
+  {
+   "row_idx": 153,
+   "row": {
+    "time": "2015-01-07 09:00:00+01:00",
+    "total load actual": 33276.0,
+    "generation solar": 2121.0,
+    "generation wind onshore": 2959.0,
+    "price actual": 93.14
+   }
+  },
+  {
+   "row_idx": 154,
+   "row": {
+    "time": "2015-01-07 10:00:00+01:00",
+    "total load actual": 34221.0,
+    "generation solar": 2841.0,
+    "generation wind onshore": 3226.0,
+    "price actual": 100.45
+   }
+  },
+  {
+   "row_idx": 155,
+   "row": {
+    "time": "2015-01-07 11:00:00+01:00",
+    "total load actual": 34796.0,
+    "generation solar": 3556.0,
+    "generation wind onshore": 4273.0,
+    "price actual": 95.17
+   }
+  },
+  {
+   "row_idx": 156,
+   "row": {
+    "time": "2015-01-07 12:00:00+01:00",
+    "total load actual": 35535.0,
+    "generation solar": 3756.0,
+    "generation wind onshore": 5914.0,
+    "price actual": 85.23
+   }
+  },
+  {
+   "row_idx": 157,
+   "row": {
+    "time": "2015-01-07 13:00:00+01:00",
+    "total load actual": 35752.0,
+    "generation solar": 3639.0,
+    "generation wind onshore": 7320.0,
+    "price actual": 81.5
+   }
+  },
+  {
+   "row_idx": 158,
+   "row": {
+    "time": "2015-01-07 14:00:00+01:00",
+    "total load actual": 35605.0,
+    "generation solar": 4133.0,
+    "generation wind onshore": 7837.0,
+    "price actual": 77.29
+   }
+  },
+  {
+   "row_idx": 159,
+   "row": {
+    "time": "2015-01-07 15:00:00+01:00",
+    "total load actual": 36020.0,
+    "generation solar": 4896.0,
+    "generation wind onshore": 7890.0,
+    "price actual": 76.61
+   }
+  },
+  {
+   "row_idx": 160,
+   "row": {
+    "time": "2015-01-07 16:00:00+01:00",
+    "total load actual": 36066.0,
+    "generation solar": 4647.0,
+    "generation wind onshore": 7996.0,
+    "price actual": 77.15
+   }
+  },
+  {
+   "row_idx": 161,
+   "row": {
+    "time": "2015-01-07 17:00:00+01:00",
+    "total load actual": 36195.0,
+    "generation solar": 4184.0,
+    "generation wind onshore": 7955.0,
+    "price actual": 79.51
+   }
+  },
+  {
+   "row_idx": 162,
+   "row": {
+    "time": "2015-01-07 18:00:00+01:00",
+    "total load actual": 35739.0,
+    "generation solar": 3631.0,
+    "generation wind onshore": 7582.0,
+    "price actual": 91.05
+   }
+  },
+  {
+   "row_idx": 163,
+   "row": {
+    "time": "2015-01-07 19:00:00+01:00",
+    "total load actual": 35188.0,
+    "generation solar": 2772.0,
+    "generation wind onshore": 6821.0,
+    "price actual": 95.29
+   }
+  },
+  {
+   "row_idx": 164,
+   "row": {
+    "time": "2015-01-07 20:00:00+01:00",
+    "total load actual": 34470.0,
+    "generation solar": 2013.0,
+    "generation wind onshore": 6198.0,
+    "price actual": 91.25
+   }
+  },
+  {
+   "row_idx": 165,
+   "row": {
+    "time": "2015-01-07 21:00:00+01:00",
+    "total load actual": 33716.0,
+    "generation solar": 1193.0,
+    "generation wind onshore": 6139.0,
+    "price actual": 87.08
+   }
+  },
+  {
+   "row_idx": 166,
+   "row": {
+    "time": "2015-01-07 22:00:00+01:00",
+    "total load actual": 32697.0,
+    "generation solar": 636.0,
+    "generation wind onshore": 6398.0,
+    "price actual": 78.15
+   }
+  },
+  {
+   "row_idx": 167,
+   "row": {
+    "time": "2015-01-07 23:00:00+01:00",
+    "total load actual": 30477.0,
+    "generation solar": 573.0,
+    "generation wind onshore": 6262.0,
+    "price actual": 75.07
+   }
+  }
+ ]
+}

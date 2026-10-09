@@ -76,6 +76,58 @@ report = Engine(max_parallel=4).run(steps)
 print(report.status, report.layers)
 ```
 
+## Running a real data pipeline
+
+The engine is not a toy: it runs a genuine multi-stage data pipeline over a **real
+public dataset** — hourly electricity demand for Spain (ENTSO-E / Red Eléctrica de
+España, via Hugging Face; a 7-day slice is vendored under
+[`datasets/`](datasets/README.md)). The pipeline is defined as a flowforge DAG in
+`flowforge/real_pipeline.py` and run by the same `Engine`:
+
+```
+fetch ──▶ clean ────┐
+      └─▶ validate ─┴─▶ aggregate ──▶ summary_stats ─┐
+                                    └▶ detect_peaks ──┴─▶ report
+```
+
+`clean` and `validate` both depend only on `fetch`, so flowforge puts them in the
+same layer and runs them in parallel; likewise `summary_stats` and `detect_peaks`.
+Each step is a real transform — parsing, gap-interpolation, a data-quality gate,
+hourly→daily aggregation, peak detection — sharing a workspace the way a CI runner
+shares a build directory.
+
+```bash
+python -m flowforge.real_benchmark
+```
+
+prints the layers the engine computes for the real DAG, the real result, and three
+demonstrations of the engine's guarantees *on this DAG*:
+
+```
+   layers : [['fetch'], ['clean', 'validate'], ['aggregate'],
+             ['detect_peaks', 'summary_stats'], ['report']]
+
+Spain hourly electricity demand — weekly report
+  window         : 2015-01-01 .. 2015-01-07 (7 days)
+  week total     : 4,463,717 MWh
+  highest demand : 2015-01-07 (770,520 MWh)
+  week peak hour : 2015-01-07T17:00:00+01:00 (36,195 MW)
+  mean renewables: 32.6% of demand (solar + onshore wind)
+  ...
+```
+
+- **A cycle is rejected** before any step runs (a back-edge `report → fetch` raises
+  `DagError`).
+- **A failing step is retried, then cascades to its dependents only**: a crashing
+  `detect_peaks` with `max_retries=2` is attempted 3 times, then `report` (which
+  depends on it) is **skipped** while `summary_stats` (an independent branch) still
+  **succeeds**.
+
+**Extending it.** A step's action is any zero-argument callable, so swapping the
+vendored loader for `real_data.fetch_rows` runs the same DAG against the live API;
+adding a stage (say `forecast` after `aggregate`) is one more `Step` with its
+`depends_on` — the engine re-derives the layers and parallelism automatically.
+
 ## The HTTP API is structure-only, by design
 
 `/validate` accepts a declarative spec (step names and dependencies) and returns
@@ -107,13 +159,20 @@ pytest --cov=flowforge --cov-report=term-missing --cov-fail-under=80
 Covers the DAG (layering, topological order, missing-dep/self-dep/duplicate/cycle
 errors), the engine (success, retry success, retry exhaustion, failure cascade,
 parallel execution, no-op steps), the HTTP API (validate, cycle rejection, run,
-404), and the CLI.
+404), the CLI, and the **real data pipeline** (`tests/test_real_benchmark.py`): the
+real daily/weekly aggregates against independently computed reference values, the
+layers and topological order of the real DAG, gap interpolation, the validation
+gate, cycle rejection, retry-then-cascade, and the fetch path with `urlopen`
+monkeypatched (no network).
 
 ## Documentation
 
 - `docs/architecture.md` — the DAG algorithms, execution model, and data flow.
 - `docs/adr/` — the main design decisions and their trade-offs.
-- `docs/estudio/` — a study guide in Spanish.
+- `docs/estudio/` — a study guide in Spanish (includes a chapter on the real
+  data pipeline worked end to end).
+- `datasets/` — the vendored real dataset slice, its provenance and how to
+  regenerate it.
 
 ## License
 

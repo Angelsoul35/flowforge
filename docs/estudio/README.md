@@ -14,6 +14,10 @@ qué" de cada decisión en tu idioma.
    la API "solo estructura".
 3. **[03-preguntas-de-entrevista.md](03-preguntas-de-entrevista.md)** — preguntas
    típicas y cómo responderlas con seguridad.
+4. **[04-pipeline-de-datos-reales.md](04-pipeline-de-datos-reales.md)** — un
+   pipeline de datos reales (demanda eléctrica de España) modelado como DAG: cómo se
+   mapea, sus capas y orden topológico paso a paso con Kahn, reintentos y
+   propagación de fallos, y un ejemplo trabajado con las capas y la salida reales.
 
 ## Resumen en una frase
 
